@@ -4,7 +4,7 @@ Gem::Specification.new do |gem|
   gem.version = '0.6.1'
   gem.executables = %w[ git-deploy ]
 
-  gem.add_dependency 'thor', '0.14.6'
+  gem.add_dependency 'thor', '>= 0.18.1'
   gem.add_dependency 'net-ssh', '~> 2.6.6'
   gem.add_dependency 'net-scp', '~> 1.1.0'
 
